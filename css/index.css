@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto:wght@100;300;700&display=swap");
+/* font-family: 'Caveat', cursive;
+font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+#conteiner {
+  max-height: 100vh;
+}
+
+#nav {
+  margin: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#search {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(248, 248, 248);
+  background-image: url("../img/lupa.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 95%;
+  height: 25px;
+}
+
+.menu {
+  display: flex;
+  column-gap: 2.5em;
+  font-size: 1.2em;
+}
+
+.links {
+  padding: 2px;
+  list-style: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.4s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.links:hover {
+  border-bottom: 2px solid rgb(4, 134, 177);
+}
+
+.social {
+  display: flex;
+  column-gap: 20px;
+  cursor: pointer;
+}
+
+.social-img {
+  width: 30px;
+}
+
+.banner {
+  height: 30em;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.banner-subtitle {
+  font-size: 2em;
+  -webkit-text-stroke: 1px black;
+}
+
+.banner-title {
+  font-family: "caveat", cursive;
+  font-size: 8em;
+  -webkit-text-stroke: 1px black;
+  color: white;
+}
+
+.banner-paragraph {
+  font-size: 2em;
+  font-weight: 700;
+  -webkit-text-stroke: 1px black;
+}
+
+.between {
+  text-align: center;
+  margin: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.item {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card1 {
+  background-image: url(../img/museu.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card2 {
+  background-image: url(../img/culinária.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card3 {
+  background-image: url(../img/catamaran.jpg);
+  background-position: calc();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  font-family: "caveat", cursive;
+  font-size: 2em;
+  color: rgb(4, 134, 177);
+  background-color: white;
+  padding: 20px;
+}
+
+#footer {
+  padding: 8%;
+  height: 10em;
+  background-image: url(../img/footer-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.news-paragraph {
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.newsletter-email {
+  width: 20em;
+  height: 3em;
+  background-color: rgb(248, 248, 248);
+  font-size: 15px;
+  border: 0;
+}
+
+.form-btn {
+  font-size: 20px;
+  padding: 8px 40px 8px 40px;
+  background-color: black;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: rgb(53, 52, 52);
+}
+
+/* ------Estilização da página Blog------ */
+
+.main-title {
+  margin: 5% 0 5% 0;
+  text-align: center;
+}
+
+.main {
+  background-color: antiquewhite;
+  padding: 2%;
+  margin: 30px 30% 30px 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.blog-date {
+  color: rgb(4, 134, 177);
+}
+
+.blog-img {
+  width: 100%;
+}
+
+.blog-title {
+  font-family: "caveat", cursive;
+  font-size: 2em;
+}
+
+.blog-division {
+  width: 100%;
+  margin: 10% 0 10% 0;
+}
